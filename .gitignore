@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# C / C++ build artifacts
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# Java build artifacts
+*.class
+target/
+out/
+.gradle/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
